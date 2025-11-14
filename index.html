@@ -50,6 +50,15 @@
           margin-top: 10px;
           text-align: left;
         }
+        .miceType {
+          font-family: Helvetica, Arial, sans-serif;
+          font-size: 12px !important;
+          line-height: 1.5;
+          font-weight: 500; 
+          color: #fafafa;
+          margin-bottom: 10px;
+          text-align: center;
+        }
         .highLight {
           color: #007476;
         }
@@ -103,10 +112,13 @@
           border-radius: 8px !important;
           text-decoration: none !important;
         }
+        ul li {
+          list-style-type: none !important;
+        }
         /* a:link, span.MsoHyperlink {
           mso-style-priority:100 !important;
-          color:#005cab !important;
-          color:#005cab;
+          color:#fafafa !important;
+          color:#fafafa;
           text-decoration:underline !important;
         } */
 
@@ -195,23 +207,28 @@
           h3 {
             margin: 36px 0 20px 0 !important;
           }
+          .bodyText {
+            padding: 0 24px 32px !important;
+          }
           .recipeBanner {
             padding-left: 15px !important;
           }
           .northmartLink {
             font-size: 36px !important;
           }
-          /* .column.column-one-half {
-            margin-bottom: 30px;
-          } */
-          /* .flyerProduct {
-            padding-left: 40px !important;
-          } */
-          .intro {
+          /* .intro {
             padding: 0 24px !important;
-          }
+          } */
           .column-one-half {
             max-width: 49% !important;
+          }
+          .prizes {
+            font-size: 24px !important;
+            line-height: 28px !important;
+          }
+          .prize {
+            font-size: 28px !important;
+            line-height: 32px !important;
           }
           .column-two-third,
           .column-one-third {
@@ -420,7 +437,7 @@
 
               <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td class="header" style="text-align: center; padding: 0 0 24px 0;">
+                  <td class="header" style="text-align: center; padding: 0;">
                     <img src="img/bingo_email_hero_1200x1250.png" width="600" style="margin: 0; padding: 0; border: none; display: block; width: 100%; max-width: 600px;" border="0" alt="BINGO - Win a Gift Card! A gift card overtop a background of stars" title="BINGO - Win a Gift Card!">
                   </td>
                 </tr>
@@ -449,22 +466,29 @@
               <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
 
                 <tr>
-                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; color: #00798f;text-align: center; padding: 16px 0 0; margin: 0;">
-                    <h1 style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 1; font-weight: 700; text-align: center; text-transform: uppercase; color: #00798f;">earn bingo cards daily</h1>
+                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; color: #00798f;text-align: center; padding: 16px 24px 32px; margin: 0;">
+                    <h1 style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 1; font-weight: 700; text-align: center; text-transform: uppercase; color: #00798f; padding-bottom: 8px;">earn bingo cards daily</h1>
                     <h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 26px; line-height: 1; font-weight: 700; text-align: center; text-transform: uppercase; color: #00798f;">november 13 - december 24, 2025</h2>
                   </td>
                 </tr>
 
                 <tr>
                   <td style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; text-align: center; padding: 0 0 24px; margin: 0;"> 
-                    <ul style="list-style: none; color: #00798f; padding: 32px 0 0; margin: 0;">
-                      <li>Nov. 19 - $100</li>
-                      <li>Nov. 26 - $100</li>
-                      <li>Dec. 3 - $100</li>
-                      <li>Dec. 10 - $100</li>
-                      <li>Dec. 17 - $100</li>
-                      <li><span style="font-size: 40px; font-weight: 700; text-transform: uppercase;">DEC. 24 - $250</span></li>
-                    </ul>
+                    <p class="prizes" style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #00798f; text-align: center; padding: 0; margin: 0;">Nov. 19 - $100</p>
+                    <p class="prizes" style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #00798f; text-align: center; padding: 0; margin: 0;">Nov. 26 - $100</p>
+                    <p class="prizes" style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #00798f; text-align: center; padding: 0; margin: 0;">Dec. 3 - $100</p>
+                    <p class="prizes" style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #00798f; text-align: center; padding: 0; margin: 0;">Dec. 10 - $100</p>
+                    <p class="prizes" style="font-family: Helvetica, Arial, sans-serif; font-size: 32px; line-height: 40px; font-weight: 700; color: #00798f; text-align: center; padding: 0; margin: 0;">Dec. 17 - $100</p>
+                    <p class="prize" style="font-family: Helvetica, Arial, sans-serif; font-size: 40px; line-height: 40px; font-weight: 700; color: #00798f; text-transform: uppercase; text-align: center; padding: 0 0 24px; margin: 0;">DEC. 24 - $250</p>
+                    
+                    <!-- <ul style="list-style-type: none; color: #00798f; padding: 32px 0 0; margin: 0;">
+                      <li style="list-style-type: none !important;">Nov. 19 - $100</li>
+                      <li style="list-style-type: none !important;">Nov. 26 - $100</li>
+                      <li style="list-style-type: none !important;">Dec. 3 - $100</li>
+                      <li style="list-style-type: none !important;">Dec. 10 - $100</li>
+                      <li style="list-style-type: none !important;">Dec. 17 - $100</li>
+                      <li style="list-style-type: none !important;"><span style="font-size: 40px; font-weight: 700; text-transform: uppercase;">DEC. 24 - $250</span></li>
+                    </ul> -->
                   </td>
                 </tr>
 
@@ -478,37 +502,37 @@
 
             </td>
           </tr>
-          <!-- BODY TEXT SECTION END -->
+        <!-- BODY TEXT SECTION END -->
 
-                  <!-- STAR HORIZONTAL SPACER START -->
-        <tr>
-          <td align="center" style="padding: 0 0 40px;">
+        <!-- STAR HORIZONTAL SPACER START -->
+          <tr>
+            <td align="center" style="padding: 0;">
 
-            <!--[if mso]>
-              <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+              <!--[if mso]>
+                <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                    <td width="600" valign="top" style="padding: 0;"
+              <![endif]-->
+
+              <table border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0; text-align: center;" role="presentation">
                 <tr>
-                  <td width="600" valign="top" style="padding: 0;"
-            <![endif]-->
-
-            <table border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0; text-align: center;" role="presentation">
-              <tr>
-                <td style="text-align: center; padding: 0; font-size: 0;">
-                  <img src="img/stars_486x104.png" alt="start" class="wevegotit" title="stars" width="243" border="0" style="width: 100%; max-width: 243px;"> 
-                </td>
-              </tr>
-            </table>
-
-            <!--[if mso]>
-              </td>
-              </tr>
+                  <td style="text-align: center; font-size: 0;">
+                    <img src="img/stars_486x104.png" alt="start" class="wevegotit" title="stars" width="243" border="0" style="width: 100%; max-width: 243px; padding-bottom: 32px;"> 
+                  </td>
+                </tr>
               </table>
-            <![endif]-->
 
-          </td>
-        </tr>
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
+
+            </td>
+          </tr>
         <!-- STAR HORIZONTAL SPACER END -->
 
-          <!-- BODY TEXT SECTION START -->
+        <!-- BODY TEXT SECTION START -->
           <tr>
             <td align="center" style="padding: 0;">
               
@@ -520,10 +544,14 @@
 
               <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; color: #00798f;text-align: left; padding: 16px 64px 0; margin: 0;">
-                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f; margin-bottom: 16px;">Get your first bingo card for free at Customer Service on November 13th. Each time you shop and spend $25, you'll receive an additional bingo card.</p>
-                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f; margin-bottom: 16px;">Get <span style="font-weight: 700; text-transform: uppercase;">more cards</span> by purchasing featured bingo items.</p>
-                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f;">Numbers are picked daily.</p>
+                  <td class="bodyText" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; color: #00798f;text-align: left; padding: 0 64px 32px; margin: 0;">
+                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f; margin: 0 0 16px;">Get your first bingo card for free at Customer Service on November 13th. Each time you shop and spend $25, you'll receive an additional bingo card.</p>
+                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f; margin: 0 0 16px;">Get <span style="font-weight: 700; text-transform: uppercase;">more cards</span> by purchasing featured bingo items.</p>
+                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f; margin: 0 0 16px;">Numbers are picked daily.</p>
+                    <h3 style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; line-height: 30px; font-weight: 700; text-align: left; color: #00798f; padding-bottom: 16px;">Get a blackout bingo to win a gift card!</h3>
+                    <p style="font-family: Helvetica, Arial, sans-serif; font-size: 18px; line-height: 26px; font-weight: 700; text-align: left; color: #00798f; margin-bottom: 0;">Follow us on your Community Facebook page<br />
+                      <span style="font-size: 18px; line-height: 26px; font-weight: 500; text-align: left; color: #00798f;">Visit each day to see if you're a winner!</span>
+                    </p>
                   </td>
                 </tr>
               </table>
@@ -538,11 +566,9 @@
           </tr>
         <!-- BODY TEXT SECTION END -->
 
-
-
         <!-- START northernstores.ca link section -->
           <tr>
-            <td style="margin: 0 20px 20px 20px !important;">
+            <td style="padding: 0;">
 
               <!--[if mso]>
                 <table width="600" align="center" style="border-spacing: 0;" role="presentation">
@@ -550,9 +576,9 @@
                     <td width="600" valign="top" style="padding: 0;"
               <![endif]-->
 
-              <table width="100%" align="center" border="0" cellspacing="0" cellspacing="0" style="border-spacing: 0; margin: 30px 0 30px 0;" role="presentation">
+              <table width="100%" align="center" border="0" cellspacing="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td style="text-align: center; padding: 0 20px;">
+                  <td style="text-align: center; padding: 0 20px 40px;">
                     <a href="https://www.northmart.ca/" target="_blank">
                       <h2 class="northmartLink" style="font-family: Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 700; line-height: 1; text-decoration: none; color: #00798f; display: inline-block;">northernstores.ca</h2>
                     </a>
@@ -571,192 +597,190 @@
         <!-- END northernstores.ca link section -->
 
         <!-- FOOTER START -->
-        <tr>
-          <td>
+          <tr>
+            <td>
 
-            <!--[if mso]>
-              <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+              <!--[if mso]>
+                <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                    <td width="600" valign="top" style="padding: 0;"
+              <![endif]-->
+
+              <table class="footer" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0;"  role="presentation">
+
                 <tr>
-                  <td width="600" valign="top" style="padding: 0;"
-            <![endif]-->
+                  <td style="padding: 0 24px;">
 
-            <table class="footer" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0;"  role="presentation">
+                    <!--[if mso]>
+                      <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                          <td width="600" valign="top" style="padding: 0;"
+                    <![endif]-->
 
-              <tr>
-                <td style="padding: 0;">
+                    <table width="100%" style="border-spacing: 0;" role="presentation">
 
-                  <!--[if mso]>
-                    <table width="600" align="center" style="border-spacing: 0;" role="presentation">
                       <tr>
-                        <td width="600" valign="top" style="padding: 0;"
-                  <![endif]-->
+                        <td align="center" style="text-align: center; padding: 32px 0 32px 0;">
+        
+                          <a class="footerMenu" href="https://www.northmart.ca/our-stores/locator" target="_blank">Store Locator</a>&nbsp;
+        
+                          <a class="footerMenu footerLink" href="https://www.northmart.ca/community-support" target="_blank">Community Support</a>&nbsp;
+        
+                          <a class="footerMenu" href="https://www.northmart.ca/flyers" target="_blank">Local Flyers</a>
+        
+                        </td>
+                      </tr>
 
-                  <table align="center" width="100%" style="border-spacing: 0;" role="presentation">
-
-                    <tr>
-                      <td align="center" style="text-align: center; padding: 35px 0 15px 0;">
-                        <a class="footerMenu" href="https://www.northmart.ca/our-stores/locator" target="_blank">Store Locator</a>
-                      </td>
-
-                      <td align="center" style="text-align: center; padding: 35px 0 15px 0;">
-                        <a class="footerMenu footerLink" href="https://www.northmart.ca/community-support" target="_blank">Community Support</a>
-                      </td>
-
-                      <td align="center" style="text-align: center; padding: 35px 0 15px 0;">
-                        <a class="footerMenu" href="https://www.northmart.ca/flyers" target="_blank">Local Flyers</a>
-                      </td>
-                    </tr>
-
-                  </table>
-
-                  <!--[if mso]>
-                    </td>
-                    </tr>
                     </table>
-                  <![endif]-->
 
-                </td>
-              </tr>
+                    <!--[if mso]>
+                      </td>
+                      </tr>
+                      </table>
+                    <![endif]-->
+
+                  </td>
+                </tr>
 
 
-              <tr>
-                <td style="margin: 0 20px 20px 20px !important; padding: 30px 0 30px 0;">
-      
-                  <!--[if mso]>
-                    <table width="600" align="center" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
+                <tr>
+                  <td style="margin: 0 20px 20px 20px !important; padding: 30px 0 30px 0;">
+        
+                    <!--[if mso]>
+                      <table width="600" align="center" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
+                        <tr>
+                          <td width="600" valign="top" style="padding: 0;"
+                    <![endif]-->
+        
+                    <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
                       <tr>
-                        <td width="600" valign="top" style="padding: 0;"
-                  <![endif]-->
-      
-                  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
-                    <tr>
-                      <td>
-                        <hr style="border: 1px solid #fafafa; background-color: #fafafa; color: #fafafa; margin: 0 20px 0 20px;">
-                      </td>
-                    </tr>
-                  </table>
-      
-                  <!--[if mso]>
-                    </td>
-                    </tr>
+                        <td>
+                          <hr style="border: 1px solid #fafafa; background-color: #fafafa; color: #fafafa; margin: 0 20px 0 20px;">
+                        </td>
+                      </tr>
                     </table>
-                  <![endif]-->
-      
-                </td>
-              </tr>
+        
+                    <!--[if mso]>
+                      </td>
+                      </tr>
+                      </table>
+                    <![endif]-->
+        
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
+                <tr>
+                  <td>
 
-                  <!--[if mso]>
-                    <table width="600" align="center" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
+                    <!--[if mso]>
+                      <table width="600" align="center" style="border-spacing: 0; border-collapse: collapse;" role="presentation">
+                        <tr>
+                          <td width="600" valign="top" style="padding: 0;"
+                    <![endif]-->
+
+                    <table width="60%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse; margin-bottom: 30px;" role="presentation">
                       <tr>
-                        <td width="600" valign="top" style="padding: 0;"
-                  <![endif]-->
-
-                  <table width="60%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse; margin-bottom: 30px;" role="presentation">
-                    <tr>
-                      <td align="center">
-                        <a style="padding: 0;" href="https://www.facebook.com/NorthernStores" target="_blank"><img src="img/social-fb_60x60.png" alt="Facebook" title="Facebook" width="35" border="0"></a>
-                        <a style="text-decoration: none; padding: 0; margin: 0;" href="https://www.facebook.com/NorthernStores" target="_blank">
-                          <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">Facebook</p>
-                        </a>
-                      </td>
-                      <td align="center">
-                        <a style="padding: 0;" href="https://www.instagram.com/northern_northmart/" target="_blank"><img src="img/social-insta_60x60.png" alt="Instagram" title="Instagram" width="35" border="0"></a>
-                        <a style="text-decoration: none; padding: 0;" href="https://www.instagram.com/northern_northmart/" target="_blank">
-                          <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">Instagram</p>
-                        </a>
-                      </td>
-                      <td align="center">
-                        <a style="padding: 0;" href="https://www.youtube.com/@TheNorthWestCompany" target="_blank"><img src="img/social-youtube_60x60.png" alt="YouTube" title="YouTube"  width="35" border="0"></a>
-                        <a style="text-decoration: none; padding: 0;" href="https://www.youtube.com/@TheNorthWestCompany" target="_blank">
-                          <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">YouTube</p>
-                        </a>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <!--[if mso]>
-                    </td>
-                    </tr>
+                        <td align="center">
+                          <a style="padding: 0;" href="https://www.facebook.com/NorthernStores" target="_blank"><img src="img/social-fb_60x60.png" alt="Facebook" title="Facebook" width="35" border="0"></a>
+                          <a style="text-decoration: none; padding: 0; margin: 0;" href="https://www.facebook.com/NorthernStores" target="_blank">
+                            <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">Facebook</p>
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a style="padding: 0;" href="https://www.instagram.com/northern_northmart/" target="_blank"><img src="img/social-insta_60x60.png" alt="Instagram" title="Instagram" width="35" border="0"></a>
+                          <a style="text-decoration: none; padding: 0;" href="https://www.instagram.com/northern_northmart/" target="_blank">
+                            <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">Instagram</p>
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a style="padding: 0;" href="https://www.youtube.com/@TheNorthWestCompany" target="_blank"><img src="img/social-youtube_60x60.png" alt="YouTube" title="YouTube"  width="35" border="0"></a>
+                          <a style="text-decoration: none; padding: 0;" href="https://www.youtube.com/@TheNorthWestCompany" target="_blank">
+                            <p style="color: #fafafa; font-size: 12px; font-weight: 500; text-align: center; margin: 0; padding: 16px 0 0;">YouTube</p>
+                          </a>
+                        </td>
+                      </tr>
                     </table>
-                  <![endif]-->
 
-                </td>
-              </tr>
-      
-              <tr>
-                <td align="center" style="padding: 20px 0 30px 0;">
+                    <!--[if mso]>
+                      </td>
+                      </tr>
+                      </table>
+                    <![endif]-->
 
-                    <a href="https://www.northmart.ca/" target="_blank">
-                      <img src="img/northernNorthMart-rev_575x90.png" alt="Northern/NorthMart logo" title="Northern/NorthMart logo" width="288" border="0" style="width: 100%; max-width: 300px;">
-                    </a>
+                  </td>
+                </tr>
+        
+                <tr>
+                  <td align="center" style="padding: 20px 0 30px 0;">
 
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding: 0 20px 0 20px;">
-
-                    <p style="font-size: 14px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center;">You have received this email because you are a valued Northern/NorthMart customer. If you no longer wish to receive these infrequent emails, please <a style="color: #fafafa; text-decoration: underline !important;" href="http://ct.e.northmart.ca/extended/page/ahnmdffo/##unsubscribecode##/">unsubscribe.</a></p>
-
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding: 0 20px 0 20px;">
-
-                    <p style="font-size: 16px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 0; text-align: center; padding: 30px 20px 0 20px;">
-                      <a style="color: #fafafa; text-decoration: underline;" href="https://www.northmart.ca/legal-privacy" target="_blank">Privacy Policy</a> &nbsp; | &nbsp;
-                      
-                      <a style="color: #fafafa; text-decoration: underline;" href="https://www.northmart.ca/contact-us" target="_blank">Contact us</a></p>
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding: 0 20px 0 20px;">
-
-                    <p style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center; padding: 20px 20px 0 20px;">
-                      The North West Company<br />
-                      77 Main Street, Winnipeg, Manitoba, Canada R3C 1A3<br />
-                      <a href="https://www.northernstores.ca.ca/" target="_blank">
-                        northernstores.ca
+                      <a href="https://www.northmart.ca/" target="_blank">
+                        <img src="img/northernNorthMart-rev_575x90.png" alt="Northern/NorthMart logo" title="Northern/NorthMart logo" width="288" border="0" style="width: 100%; max-width: 300px;">
                       </a>
-                    </p>
 
-                </td>
-              </tr>
+                  </td>
+                </tr>
 
-              <tr>
-                <td align='center' style="padding: 0;">
-                  <a href="https://www.northmart.ca/shopCanadian" target="_blank">
-                    <img style="padding: 10px 0 20px 0;" src="img/canada.png" width="135" border="0" alt="Canadian Proud" title="Canadian Proud">
-                  </a>
-                </td>
-              </tr>
+                <tr>
+                  <td style="padding: 0 20px 0 20px;">
 
-              <tr>
-                <td style="padding: 0 20px 0 20px;">
+                      <p style="font-size: 14px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center;">You have received this email because you are a valued Northern/NorthMart customer. If you no longer wish to receive these infrequent emails, please <a style="color: #fafafa; text-decoration: underline !important;" href="http://ct.e.northmart.ca/extended/page/ahnmdffo/##unsubscribecode##/">unsubscribe.</a></p>
 
-                    <p style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 10px; text-align: center; padding: 0 20px 10px 20px;">© 2025 The North West Company. All rights reserved</p>
+                  </td>
+                </tr>
 
-                    <p style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center;">Please do not reply to this email as this email address is not being monitored for incoming messages.</p>
+                <tr>
+                  <td style="padding: 0 20px 0 20px;">
 
-                </td>
-              </tr>
+                      <p style="font-size: 16px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 0; text-align: center; padding: 30px 20px 0 20px;">
+                        <a style="color: #fafafa; text-decoration: underline;" href="https://www.northmart.ca/legal-privacy" target="_blank">Privacy Policy</a> &nbsp; | &nbsp;
+                        
+                        <a style="color: #fafafa; text-decoration: underline;" href="https://www.northmart.ca/contact-us" target="_blank">Contact us</a></p>
+                  </td>
+                </tr>
 
-            </table>
+                <tr>
+                  <td style="padding: 0 20px 0 20px;">
 
-            <!--[if mso]>
-              </td>
-              </tr>
+                      <p style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center; padding: 20px 20px 0 20px;">
+                        The North West Company<br />
+                        77 Main Street, Winnipeg, Manitoba, Canada R3C 1A3<br />
+                        <a href="https://www.northernstores.ca.ca/" target="_blank">
+                          northernstores.ca
+                        </a>
+                      </p>
+
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align='center' style="padding: 0;">
+                    <a href="https://www.northmart.ca/shopCanadian" target="_blank">
+                      <img style="padding: 10px 0 20px 0;" src="img/canada.png" width="135" border="0" alt="Canadian Proud" title="Canadian Proud">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding: 0 20px 0 20px;">
+
+                      <p class="miceType" style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 10px; text-align: center; padding: 0 20px 10px 20px;">© 2025 The North West Company. All rights reserved</p>
+
+                      <p class="miceType" style="font-size: 12px !important; line-height: 1.5; font-weight: 500; font-family: Helvetica, Arial, sans-serif; color: #fafafa; margin-bottom: 20px; text-align: center;">Please do not reply to this email as this email address is not being monitored for incoming messages.</p>
+
+                  </td>
+                </tr>
+
               </table>
-            <![endif]-->
+
+              <!--[if mso]>
+                </td>
+                </tr>
+                </table>
+              <![endif]-->
 
 
-          </td>
-        </tr>
+            </td>
+          </tr>
          <!-- FOOTER END -->
 
       </table>
